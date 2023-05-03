@@ -1,0 +1,49 @@
+.olkeler {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin: 0 2%;
+}
+
+.olkeler button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.olkeler button:hover {
+    background-color: #ddd;
+}
+
+.olkelercontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.d-none {
+    border: none;
+}
+
+.d-block {
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+}
+
+.textarea {
+    background-color: white;
+    margin: 0 2%;
+}
+#displaytext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+   
+}
